@@ -19,8 +19,8 @@ So, what's that website about? Well, it's basically a social network designed fo
 
 Bellow is a little tour through the website (the GIF was too big, so needed to be splited).
 
-<img alt="Website overview" src="https://i.giphy.com/media/KEYSy7DjfCEQ0Xzpse/source.gif" />
-<img alt="Website overview" src="https://i.giphy.com/media/H4JmyY8bJXXhX2ytqU/source.gif" />
+<p style="text-align: center;"><img alt="Website overview" src="https://i.giphy.com/media/KEYSy7DjfCEQ0Xzpse/source.gif" /></p>
+<p style="text-align: center;"><img alt="Website overview" src="https://i.giphy.com/media/H4JmyY8bJXXhX2ytqU/source.gif" /></p>
 
 
 ### 🏠 [Homepage](https://github.com/gabrielgeier/social-network-php)
