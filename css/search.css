@@ -1,0 +1,238 @@
+.search-window{
+	background-color: rgba(6,17,33,.9);
+	color: #fff;
+    position: relative; 
+    border-radius: 18px;
+    text-align: center;
+    width: 600px;
+    height: 190px;
+    padding-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 30px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+.search-window:hover{
+	background-color: rgba(6,17,33,1);
+	transition: 1s;
+}
+
+.search{
+	position: absolute;
+	margin-top: 50px;
+}
+
+select{
+	border: none;
+	border-bottom: 1px solid rgba(255,255,255,.7);
+	background: rgba(33,67,100,.1);
+	color: rgba(255,255,255,.8);
+	margin-left: 20px;
+}
+
+.search-window input[type="text"]{
+	border: none;
+	border-bottom: 1px solid rgba(255,255,255,.7);
+	border-top: 1px solid rgba(255,255,255,.7);
+	background: white;
+	color: black;
+	width: 400px;
+	height: 40px;
+	font-size: 12pt;
+	margin-left: 103px;
+	border-radius: 16px;
+	padding-left: 12px;
+}
+
+.search-window input[type="text"]::placeholder{
+	color: black;
+	text-align: center;
+}
+
+.search-window input[type="submit"]{
+	margin-top: 20px;
+	margin-left: 98px;
+	background-color: rgba(33,67,100,.5);
+	border: none;
+	border-radius: 14px;
+	color: white;
+	width: 70px;
+	height: 30px;
+	font-weight: bold;
+}
+
+.search-window input[type="submit"]:hover{
+	background-color: rgba(33,67,100,1);
+	transition: 1s;
+}
+
+.search-window p {
+	margin-top: 0px;
+	margin-left: 100px;
+}
+
+h1{
+	padding-top: 30px;
+}
+.person-result-window{
+	background-color: rgba(6,17,33,.9);
+	color: #fff;
+    position: relative; 
+    border-radius: 18px;
+    text-align: center;
+    width: 800px;
+    height: auto;
+    padding-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 30px;
+    margin-bottom: 80px;
+}
+
+.person-result-window:hover{
+	background-color: rgba(6,17,33,.95);
+	transition: 1s;
+}
+
+.person{
+	background-color: rgba(6,17,33,.9);
+	color: #fff;
+    position: relative; 
+    border-radius: 18px;
+    text-align: center;
+    width: 600px;
+    height: auto;
+    padding-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid white;
+}
+
+.image-box{
+	width: 130px;
+	height: 180px;
+	border: 2px solid white;
+	border-radius: 16px;
+	object-fit: cover;
+	left: 20px;
+	top: 20px;
+	position: absolute;
+	display: block;
+	margin: auto;
+	padding: 0px;
+}
+
+.person p{
+	font-weight: normal;
+	font-size: 12pt;
+	text-align: justify;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+.person a{
+	width: 0px;
+}
+
+.text-area{
+	margin-top: 30px;
+	margin-left: 180px; 
+}
+
+.no-results{
+	display: block;
+	padding-top: 0px;
+	padding-top: 70px;
+}
+
+input[name="accept-friendship"]{
+	width: 65px;
+	position: absolute;
+	margin-left: -280px;
+	margin-top: 120px;
+	float: left;
+	text-align: center;
+}
+
+input[name="refuse-friendship"]{
+	width: 65px;
+	position: absolute;
+	margin-left: -210px;
+	margin-top: 120px;
+	float: left;
+	text-align: justify;
+}
+
+.book{
+	background-color: rgba(6,17,33,.9);
+	color: #fff;
+    position: relative; 
+    border-radius: 18px;
+    text-align: center;
+    width: 600px;
+    height: auto;
+    padding-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid white;
+}
+
+.book p{
+	font-weight: normal;
+	font-size: 12pt;
+	text-align: justify;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+.text-area-book{
+	padding-top: 40px;
+	margin-top: 30px;
+	margin-left: 180px;
+	margin-right: 10px;
+}
+
+a#book{
+	all: initial;
+	* {
+	all: unset;
+	}
+}
+
+a#book{
+	cursor: pointer;
+}
+
+select{
+	border: none;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    background: transparent;
+    color: rgba(255,255,255,.8);
+}
+
+select option.{
+    background: transparent;
+}
+
+optgroup, option{
+	background-color: rgba(22,33,49,1);
+}
+
+input[name="refuse-friendship"], input[name="accept-friendship"]{
+	height: 24px;
+	border: 1px solid gray;
+	border-radius: 8px;
+	color: rgba(6,17,33,1);
+	background-color: white;
+	cursor: pointer;
+}

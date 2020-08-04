@@ -1,0 +1,136 @@
+nav ul{
+	background-color: transparent;
+}
+
+header{
+	height: 45px;
+	background-color: rgba(06, 17, 33, 1);
+	position: relative;
+}
+
+a{
+	display: block;
+  	color: rgba(255,255,255,0.8);
+  	text-decoration: none;
+	word-wrap: no-wrap;
+	font-size: 14pt;
+	top:20px;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	height: 24px;
+}
+
+.profile-image{
+	width: 35px;
+	height: 35px;
+	border: 2px solid white;
+	border-radius: 80px;
+	object-fit: cover;
+	left: 15px;
+	margin-top: -18px;
+	position: absolute;
+	display: block;
+}
+
+nav ul li#left{
+	float: left;
+	padding-left: 60px;	
+}
+
+a#reset{
+	all: initial;
+	* {
+	all: unset;
+	}
+}
+
+a#reset{
+	cursor: pointer;
+}
+
+.image-box{
+	margin-left: 30px;
+	padding-top: 30px;
+	top: 4.3px;
+	height: 200px;
+	left: 15px;
+	background-color: transparent;
+	width: 150px;
+}
+
+input[type='file']{
+  color: transparent;
+  float: left;
+}
+
+.errors {
+	background-color: rgba(6,17,33,.7);
+	color: #fff;
+    position: relative; 
+    border-radius: 18px;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    margin: 100px auto auto auto;
+}
+
+.collapse{
+	z-index: 10;
+}
+
+li#right{
+	cursor: default;
+}
+
+.hover-none:hover{
+	text-decoration: none;
+}
+
+.collapse ul{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	z-index: 7;
+	color: inherit;
+	background-color: rgba(06, 17, 33, 1);
+	display: none;
+ }
+
+ .collapse:hover ul{
+ 	display: block;
+ }
+
+ .collapse ul li{
+ 	border-top: 1px solid white;
+ }
+
+ .collapse ul li#l3{
+ 	border-top: none;
+ }
+
+.border-bottom{
+	border-bottom: 1px solid white;
+}
+
+ li#right{
+ 	border: none;
+ }
+
+ li#l1{
+ 	padding-right: 15px;
+ 	padding-left: 15px;
+ }
+
+a#right{
+	padding-right: 15px;
+	padding-left: 15px;
+	border-left: 2px solid white;
+}
+
+.menu-fixed{
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+	border-bottom: 1px white solid;
+	min-width: 810px;
+	font-family: Arial, sans-serif;
+}

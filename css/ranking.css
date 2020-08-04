@@ -1,0 +1,135 @@
+.window{
+	width: 800px;
+	color: white;
+	height: auto;
+	margin-bottom: 50px;
+	padding-top: 20px;
+}
+
+table td, th, a#table{
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 12pt;
+}
+
+h1{
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, table th {
+    border: 1px solid rgba(255,255,255,.5);
+    padding: 8px;
+}
+
+table th{
+	background-color: rgba(0,0,0,.3)
+}
+
+table tr:nth-child(even){
+	background-color: rgba(6,17,33,.9);
+}
+
+table th {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+table td {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+}
+
+body{
+  background-color: black;
+}
+
+.window p{
+	margin: auto;
+}
+
+.window select{
+	background: transparent;
+	color: rgba(255,255,255,.8);
+	border: none;
+	border-bottom: 1px solid rgba(255,255,255,.7);
+}
+
+div#methods{
+	padding: 10px;
+	border-left: 2.4px solid white;
+	border-radius: 8px;
+}
+
+p#filter{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+input[name="go"]{
+	width: 30%;
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
+	display: block;
+}
+
+.table-window-book{
+	width: 50%;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+.table-window-authors{
+	width: 50%;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+.table-window-genres{
+	width: 50%;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+.table-window-languages{
+	width: 50%;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+div#ranking-results{
+	width: 40%;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+div#ranking-results-books{
+	width: 95%;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+select{
+	border: none;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    background: transparent;
+    color: rgba(255,255,255,.8);
+}
+
+select option.{
+    background: transparent;
+}
+
+optgroup, option{
+	background-color: rgba(22,33,49,1);
+}

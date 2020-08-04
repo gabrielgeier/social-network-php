@@ -1,0 +1,79 @@
+.window{
+	width: 420px;
+	height: auto;
+	margin-bottom: 45px;
+	padding-bottom: 30px;
+}
+
+.window p{
+	color: inherit;
+}
+
+.window h1{
+	padding-top: 0px;
+}
+
+.minimizer{
+	left: 88.5%;
+	top: -105px;
+}
+
+.window input[type="email"], input[type="date"]{
+	border: none;
+	border-bottom: 1px solid rgba(255,255,255,.7);
+	background: transparent;
+}
+
+.window input[type="date"]{
+	color: rgba(255,255,255,.7);
+}
+
+.window input[type="radio"]{
+	margin-left: 35px;
+	width: 4%;
+	margin-bottom: 0px;
+	background: transparent;
+}
+
+input:-webkit-autofill{
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: white;
+}	
+
+select{
+	border: none;
+	border-bottom: 1px solid rgba(255,255,255,.7);
+	background: transparent;
+	color: rgba(255,255,255,.8);
+	margin-left: 20px;
+}
+
+::placeholder{
+	color: rgba(255,255,255,.7);
+}
+
+select#country option.{
+    background: transparent;
+}
+
+.window input{
+	color: white;
+}
+
+optgroup, option{
+	background-color: rgba(22,33,49,1);
+}
+
+a#required{
+	color: red;
+	margin-left: 0px;
+	font-size: 12pt;
+}
+
+a#required:hover{
+	text-decoration: none;
+}
+
+option#disabled{
+	display: none;
+}

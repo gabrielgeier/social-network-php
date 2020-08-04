@@ -1,0 +1,67 @@
+.window{
+	width: 560px;
+	height: auto;
+	margin-bottom: 45px;
+	padding-bottom: 10px;
+}
+
+.logo{
+	width: 30%;
+    left: 35%;
+}
+
+.minimizer{
+	left: 90%;
+	top: -100px;
+}
+
+.window p{
+	padding-left: 43px;
+	padding-right: 43px;
+	text-indent: 3em;
+	color: inherit; 
+	font-size: 16px; 
+	line-height: 26px; 
+	text-indent: 30px; 
+	font-weight: normal;
+	margin-left: 0px;
+}
+
+.window h1{
+	padding-bottom: 10px;
+	padding-top: 15px;
+}
+
+.image-window{
+	width: 400px;
+	height: 140px;	
+    display: block;
+	text-align: center;
+	padding-top: 4%;
+	padding-left: 27.4%;
+}
+
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.image-window img{
+	float: left;
+	width: 20%;
+	opacity: 0.5;
+	margin-left: 5px;
+	margin-bottom: 5px;	
+}
+
+.image-window img:hover{
+	opacity: 1;
+	transition: 1s ease;
+}
+
+.image-window a{
+	height: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}

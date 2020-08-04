@@ -1,0 +1,123 @@
+body{
+	background-image: url(../images/fundo-opaco50.jpg);
+}
+
+.window{
+	width: 320px;
+	height: 340px;
+	background: rgba(6,17,33,.8);
+	color: rgba(255, 255, 255, .7);
+	margin-top: 45px;
+	margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    padding-top: 90px; 
+    border-radius: 18px;
+}
+
+.window:hover{
+	background: rgba(6,17,33,.9);
+	color: white;
+	transition: 1s;
+}
+
+.window h1{
+	text-align: center;
+	font-size: 18pt;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.window p, input{
+	margin-left: 20px;
+}
+
+.window p{
+	font-weight: bold;
+	text-align: justify;
+	font-family: Arial, sans-serif; 
+}
+
+.window input{
+	width: 86.8%;
+	margin-bottom: 20px;
+}
+
+.window input[type="text"], input[type="password"]{
+	border: none;
+	color: white;
+	border-bottom: 1px solid rgba(255,255,255,.7);
+	background: transparent;
+}
+
+::placeholder { 
+    color: white;
+    opacity: 0.7; 
+}
+
+.window input[type="submit"]{
+	border: none;
+	height: 40px;
+	background-color: rgba(33,67,100,.5);
+	border-radius: 18px;
+	color: white;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+.window input[type="submit"]:hover{
+	background-color: rgba(33,67,100,1);
+	transition: 1s;
+}
+
+.logo{
+	display:block;
+	width: 40%;
+    top: -55px;
+    left: 30%;
+    position: absolute;
+}
+
+.minimizer{
+	margin:none;
+	width: 10px;
+	height: 10px;
+	display: block;
+	position: relative;
+	font-weight: bold;
+	font-size: 30pt;
+	left: 87.5%;
+	top: -109px;
+}
+
+.minimizer:hover{
+	text-decoration: none;
+}
+
+.window ul{
+	padding-left: 120px;
+	padding-right: 120px;
+	text-decoration-style: circle;
+}
+
+.window ul li{
+	padding-bottom: 5px;
+}
+
+.window a{
+	display: unset;
+  	color: inherit;
+	word-wrap: no-wrap;
+	font-weight: bold;
+}
+
+.window a:hover{
+	text-decoration: underline;
+}
+
+.window a#in-text{
+	font-size: 16px;
+}
+
+

@@ -1,0 +1,19 @@
+.window h1{
+	padding-top: -1000px;
+	margin-top: -20px;
+}
+
+.window p{
+	color: inherit;
+}
+
+.window{
+	height: auto;
+	padding-bottom: 30px;
+}
+
+input:-webkit-autofill{
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: white;
+}
+

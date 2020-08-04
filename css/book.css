@@ -1,0 +1,368 @@
+textarea{
+	background-color: rgba(6,17,33,.7);
+	border: 2px solid white;
+	border-radius: 8px;
+	width: 340px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	margin-top: 20px;
+	resize: vertical;
+}
+
+textarea p{
+	padding-left: 50px;
+	padding-right: 20px;
+	color: inherit; 
+	font-size: 16px; 
+	line-height: 26px; 
+	text-indent: 30px; 
+	margin-left: 0px;
+	font-weight: normal;
+	text-align: justify;
+}
+
+p#center{
+	padding-top:40px;
+	margin: auto;
+	text-align: center;
+}
+
+select{
+	display: block;
+	position: relative;
+	border: solid 1px darkgray;
+	border-radius: 5px;
+	padding-right: 20px;
+	cursor: default;
+	text-decoration: none;
+	color: white;
+	vertical-align: top;
+	font-family: Arial;
+	font-size: 10pt;
+	z-index: 0;
+}
+
+select:focus{
+	background: rgba(6,17,33,1);
+}
+
+.ultraselect .options{
+	z-index: 1;
+}
+
+.book-upload{
+	position: relative;
+	width: 180px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input[type='submit']{
+	margin: auto;
+	width: 100px;
+	display: block;
+	text-align: center; 
+	font-family: Arial;
+}
+
+label#book{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: -20px;
+}
+
+label#book:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.submit{
+	position: relative;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+}
+
+.submit#top{
+	margin-top: -15px;
+}
+
+.window input[type="submit"]#cancel{
+	margin-left: -70px;
+}
+
+fieldset{
+	text-align: center;
+	border: none;
+}
+
+.window input[name="option"]{
+	display: inline-block;
+	text-align: center;
+	margin-left: 0px;
+}
+
+p#center{
+	padding-top: 10px;
+}
+
+p#center2{
+	margin-top: -10px;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+select#center{
+	padding-right: 0px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: inline-center;
+}
+
+.window#small{
+	width: 360px;
+}
+
+.cover-box{
+	width: 190px;
+	height: 300px;
+	border: 2px solid white;
+	border-radius: 16px;
+	object-fit: cover;
+	//position: relative;
+	//display: block;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.book-window{
+	width: 340px;
+	margin-top: 40px;
+	position: relative;
+}
+
+.book-window#book{
+	margin-left: 100px;
+}
+
+.book-window#edit{
+	margin-left: 147px;
+}
+
+.book-window p{
+	text-align: left;
+	padding-left: 10px;
+	font-family: Arial;
+}
+
+div#stats{
+	margin-left: 0px;
+}
+
+h1#title{
+	font-size: 22px;
+}
+
+.book-text-box{
+	background-color: rgba(6,17,33,.7);
+	border: 2px solid white;
+	border-radius: 28px;
+	width: 800px;
+	margin-left: 9.5%;
+	margin-top: 60px;
+}
+
+.book-text-box#comments{
+	margin-top: 30px;
+}
+
+.book-text-box h1{
+	text-align: center;
+	padding-bottom: 10px;
+	font-size: 22pt;
+}
+
+.book-text-box p{
+	padding-left: 20px;
+	padding-right: 20px;
+	color: inherit; 
+	font-size: 16px; 
+	line-height: 26px; 
+	text-indent: 30px; 
+	margin-left: 0px;
+	font-weight: normal;
+	text-align: justify;
+}
+
+.buttons{
+	display: flex;
+	margin: auto;
+	width: 330px;
+	height: 20px;
+	position: relative;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 20px;
+	border: 3px solid white;
+	border-top: none;
+	border-radius: 10px;
+	padding-bottom: 4px;
+}
+
+.buttons#edit-permission{
+	width: 440px;
+}
+
+.buttons#edit{
+	width: 530px;
+}
+
+a#options{
+	width: 100px;
+	margin: auto;
+	font-weight: bold;
+	font-size: 8pt;
+	height: auto;
+	font-family: Arial;
+	color: white;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	background-color: rgba(33,67,100,.6);
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+a#options:hover{
+	background-color: rgba(33,67,100,1);
+	transition: 1s;
+}
+
+div#option{
+	width: 90px;
+	display: flex;
+	margin:auto;
+	float: none;
+	display: flex;
+	align-self: center;
+	padding: none;
+	margin-bottom: 10px;
+}
+
+input#edit-authors, #edit-date, #edit-genres, #edit-languages, #edit-title{
+	color: white;
+	border: none;
+	border-bottom: 1px solid rgba(255,255,255,.7);
+	background: transparent;
+	margin-left: 10px;
+}
+
+label#full{
+	text-align: left;
+}
+
+input#edit-complete{
+	
+}
+
+input#edit-complete, #edit-incomplete{
+	text-align: left;
+	margin-left: 10px;
+}
+
+.ultraselectWrapper{
+	//display: block;
+	//margin-top: 10px;
+}
+
+span#select{
+	display: block;
+	margin-left: 77px;
+	margin-top: -16px;
+}
+
+span#options{
+	display: block;
+	margin-left: 127px;
+	margin-top: -16px;
+}
+
+label#full2{
+	margin-top: 10px;
+}
+
+textarea#book-edit{
+	width: 500px;
+}
+
+button[name='submit-edits']{
+	border: none;
+    height: 40px;
+    background-color: rgba(33,67,100,.5);
+    border-radius: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   	text-align: center;
+}
+
+button[name='submit-edits']:hover{
+	background-color: rgba(33,67,100,1);
+	transition: 1s;
+	cursor: pointer;
+}
+
+.profile-window{
+	padding-bottom: 20px;
+	margin-bottom: 100px;
+}
+
+object#book{
+	margin-top: -35px;
+}
+
+div#wraper{
+	display: inline-flex;
+}
+
+textarea{
+	color: white;
+}
+
+a#favorite-button{
+	width: 100px;
+	margin: auto;
+	font-weight: bold;
+	font-size: 8pt;
+	top: 0px;
+	height: auto;
+	font-family: Arial;
+	color: white;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	background-color: rgba(220,20,60,.4);
+	cursor: pointer;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+a#favorite-button:hover{
+	background-color: rgba(220,20,60,1);
+	transition: 1s;
+}
+
+p#center2{
+	font-size: 16pt;
+}

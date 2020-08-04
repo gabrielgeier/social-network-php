@@ -1,0 +1,146 @@
+body{
+	background-image: url(../images/fundo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center; 
+	min-width: 650px;
+	font-family: sans-serif;
+	height: 600px;
+}
+
+p{
+	color: white;
+}
+
+nav{
+	background-color: rgba(06, 17, 33, .85);
+	height: 40px;
+	margin-top: -8px;
+	margin-right: -8px;
+	margin-left: -8px;
+	width: auto;
+	min-width: 560px;
+}
+
+nav:hover{
+	background-color: rgba(06, 17, 33, 1);
+	transition: 1s ease;
+}
+
+nav ul{
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20pt;
+    font-weight: bold;
+    display: flex;
+	justify-content: space-between;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+nav ul li:hover{
+	text-decoration: underline;
+}
+
+a{
+	display: block;
+  	color: rgba(255,255,255,0.8);
+  	text-decoration: none;
+	word-wrap: no-wrap;
+	font-size: 16pt;
+	top:20px;
+	padding-top: 5.5px;
+	padding-bottom: 2.5px;
+	height: 28px;
+}
+
+a#menu{
+	margin-top: -10px;
+	padding-top: 3.5px;
+	padding-bottom: 3.5px;
+	height: auto;
+	margin: auto;
+	font-family: Arial, sans-serif;
+}
+
+nav div{
+	margin-top: -10px;
+}
+
+div#right{
+	width: 250px;
+	align-self: flex-end;
+	text-align: right;
+	margin-right: 10px;
+}
+
+div#right a{
+	padding-left: 10px;
+	border-left: 2px solid white;
+}
+
+div#left{
+	align-self: flex-start;
+	width: 250px;
+	margin-left: 10px;
+	margin-top: -7.3px;
+}
+
+div#left a{
+	padding-right: 10px;
+	border-right: 2px solid white;
+}
+
+div#center{
+	width: 150px;
+	text-align: center;
+	margin-top: -6px;
+}
+
+a:hover{
+	color: white;
+}
+
+img#logo-midle{
+	width: 8%;
+	display: block;
+    margin: 0 auto;
+    opacity: 0.5;
+    filter: blur(1px);
+}
+
+img#logo-midle:hover{
+	transform: scale(1.5);  
+    opacity: 1;
+    filter: blur(0px);
+    transition: all .4s ease-in;
+}
+
+div#welcome-window{
+	width: 470px;
+	height: 100px;
+	background-color: rgba(6,17,33,.7);
+	color: #fff;
+	margin-top: 45px;
+	margin-left:auto;
+    margin-right:auto;
+    position: relative; 
+    border-radius: 18px;
+    text-align: center;
+}
+
+div#welcome-window:hover{
+	background-color: rgba(6,17,33,.9);
+	transition: 1s;
+}
+
+div#welcome-window h1{
+	padding-top: 5px;
+}
+

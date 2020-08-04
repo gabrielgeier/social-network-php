@@ -1,0 +1,193 @@
+.profile-window{
+	background-color: rgba(6,17,33,.9);
+	color: #fff;
+    position: relative; 
+    border-radius: 18px;
+    text-align: center;
+    width: 1000px;
+    height: auto;
+    padding-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 1000px;
+    top: 30px;
+    margin-bottom: 80px;
+}
+
+.profile-window:hover{
+	background-color: rgba(6,17,33,1);
+	transition: 1s ease;
+}
+
+.username{
+	width: 150px;
+	height: 30px;
+	margin-left: 30px;
+}
+
+.username p{
+	text-align: center;
+	font-weight: bold;
+}
+
+.profile-thought{
+	background-color: rgba(6,17,33,.7);
+	border-radius: 28px;
+	width: 700px;
+	height: 160px;
+	margin-left: 250px;
+	margin-top: 58px;
+    border: 2px solid white;
+    display: flex;
+	justify-content: center; 
+	align-items: center; 
+}
+
+.profile-thought p{
+	display: table-cell;
+	padding: 20px;
+	text-align: center;
+	margin: auto;
+	vertical-align: middle;
+	font-weight: normal;
+	font-size: 24px;
+}
+
+.profile-window input[type='submit']{
+  float: left;
+  margin-left: 20px;
+}
+
+.image-box{
+	width: 150px;
+	height: 230px;
+	border: 2px solid white;
+	border-radius: 16px;
+	object-fit: cover;
+	left: 40px;
+	top: 40px;
+	position: absolute;
+	display: block;
+	margin: auto;
+	padding: 0px;
+}
+
+.username-box{
+	position: relative;
+	height: 20px;
+	width: 134px;
+	top: 290px;
+	left: 50px;
+}
+
+.username-box p{
+	font-weight: bold;
+	text-align: center;
+	margin: none;	
+}
+
+.person-window{
+	width: 700px;
+	margin-top: 140px;
+	margin-left: 247px;
+	position: relative;
+}
+
+.person-border{
+	border: 2px solid white;
+	border-right: none;
+	border-radius: 18px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+ 	position: absolute;
+ 	top: 0%;
+ 	bottom: 0%;
+ 	width: 40px;
+ 	height: 112%;
+ 	margin-top: -12px;
+}
+
+.person-window p{
+	text-align: justify;
+	padding-left: 10px;
+	font-family: Arial;
+}
+
+.person-links a{
+	all: initial;
+	* {
+	all: unset;
+	}
+}
+
+.person-links{
+	margin-top: -160px;
+	margin-left: 50px;
+}
+
+.person-links a{	
+	text-align: justify;
+	font-family: Arial;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.person-links a:hover{
+	text-decoration: underline;
+}
+
+.person-links li{
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+.person-biography{
+	background-color: rgba(6,17,33,.7);
+	border: 2px solid white;
+	border-radius: 28px;
+	width: 800px;
+	margin-left: 9.5%;
+	margin-top: 150px;
+}
+
+.person-biography h1{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.person-biography p{
+	padding-left: 20px;
+	padding-right: 20px;
+	color: inherit; 
+	font-size: 16px; 
+	line-height: 26px; 
+	text-indent: 30px; 
+	margin-left: 0px;
+	font-weight: normal;
+	text-align: justify;
+}
+
+input#submit-friend{
+	text-align: center;
+	float: none;
+	margin-left: 0px;
+	margin-top: -40px;
+	height: 24px;
+	border: 1px solid gray;
+	border-radius: 8px;
+	color: rgba(6,17,33,1);
+	background-color: white;
+	cursor: pointer;
+}
+
+@-moz-document url-prefix() {
+    input#submit-friend {
+        margin-bottom: -25px;
+    }
+}
+
+textarea{
+	padding: 8px;
+}
+
