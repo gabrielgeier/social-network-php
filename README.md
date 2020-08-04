@@ -17,7 +17,7 @@ So, what's that website about? Well, it's basically a social network designed fo
 - Make friends;
 - Use his own feed or see his friend's;
 
-Bellow is a little tour through the website (the GIFT was too big, so needed to be splited).
+Bellow is a little tour through the website (the GIF was too big, so needed to be splited).
 
 <img alt="Website overview" src="https://i.giphy.com/media/KEYSy7DjfCEQ0Xzpse/source.gif" />
 <img alt="Website overview" src="https://i.giphy.com/media/H4JmyY8bJXXhX2ytqU/source.gif" />
