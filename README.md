@@ -7,7 +7,7 @@
 
 > So, without further ado, what's all that about? 
 
-<img alt="Website overview" src="https://media.giphy.com/media/gF7oJsQetcP6ZDUfYB/giphy-downsized-large.gif" />
+<img alt="Website overview" src="https://media.giphy.com/media/gF7oJsQetcP6ZDUfYB/source.gif" />
 
 ### 🏠 [Homepage](https://github.com/gabrielgeier/social-network-php)
 
