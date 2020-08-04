@@ -1,20 +1,13 @@
 <h1 align="center">Welcome to social-network-php 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-  <img src="https://img.shields.io/badge/npm-%3E%3D5.5.0-blue.svg" />
-  <img src="https://img.shields.io/badge/node-%3E%3D9.3.0-blue.svg" />
-  <a href="https://github.com/kefranabg/readme-md-generator#readme" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/kefranabg/readme-md-generator/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
-  <a href="https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/gabrielgeier/social-network-php" />
-  </a>
 </p>
 
-> Hello! This was my first experience developing a web app.   
+> Hello, and welcome to my social network! This was my first experience developing a web app. It dates from the first semester of 2018, when I had little to none knowledge about web development. I tried my best to fully grasp the experience, and to do so, i bet on PHP, without any framework help. As you can imagine, the code is very messy, and there is a lot of redundancy. Even in the front-end, i made without frameworks, to train my CSS, HTML and JS. Without a shadow of doubt, this freedom made my creativity jump to another level, and i could accomplish a lot of things.
+
+> So, without further ado, what's all that about? 
+
+<img alt="Website overview" src="https://media.giphy.com/media/gF7oJsQetcP6ZDUfYB/giphy.gif" />
 
 ### 🏠 [Homepage](https://github.com/gabrielgeier/social-network-php)
 
