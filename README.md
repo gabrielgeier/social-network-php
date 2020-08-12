@@ -3,6 +3,8 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
+>Disclaimer: this was my first web project, back in 2018, so expect a messy code. 
+
 Hello, and welcome to my social network! This was my first experience developing a web app. It dates from the first semester of 2018, when I had little to none knowledge about web development. I tried my best to fully grasp the experience, and to do so, i bet on PHP, without any help of a framework. As you can imagine, the code is very messy, and there is a lot of redundancy. Even in the front-end, i made without frameworks, to train my CSS, HTML and JS. Without a shadow of doubt, this freedom made my creativity jump to another level, and i could accomplish a lot of things.
 
 So, what's that website about? Well, it's basically a social network designed for authors and readers of novels and fanfics. So, here, the user can:
@@ -16,6 +18,8 @@ So, what's that website about? Well, it's basically a social network designed fo
 - See the ranking for authors, books, genres and languages;
 - Make friends;
 - Use his own feed or see his friend's;
+
+As i mentioned before, the code isn't very organized, so i'm remaking the website using pyhton + pyramid framework as part of my TCC. 
 
 Bellow is a little tour through the website (the GIF was too big, so needed to be splited).
 
